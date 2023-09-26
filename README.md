@@ -1,7 +1,7 @@
 <h3>Project Completed By:</h3>
-Abdullah Al Mamun - 011 191 104 
+Abdullah Al Mamun 
 &
-Sadman Sakib - 011 191 097
+Sadman Sakib 
 
 <h1>Completed Task</h1>
 <ol type="I">
