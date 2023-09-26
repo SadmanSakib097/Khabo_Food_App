@@ -1,5 +1,5 @@
 <h3>Project Completed By:</h3>
-sadman Sakib
+Sadman Sakib
 &
 Abdullah Al Mamun 
 
