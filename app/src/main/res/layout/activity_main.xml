@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_image"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="40dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/khabo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="cursive"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="Khabo"
+            android:textColor="#FFFFFF"
+            android:textSize="70sp" />
+
+        <Button
+            android:id="@+id/login_btn"
+            style="@style/btnStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:padding="8dp"
+            android:text="LOGIN"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/register_btn"
+            style="@style/btnStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:padding="8dp"
+            android:text="Register"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Skip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Skip"
+            android:textColor="#0097A7"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="13dp" />
+
+        <TextView
+            android:id="@+id/madeBy"
+            style="@style/Widget.AppCompat.TextView.SpinnerItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text=" Made By: "
+            android:textColor="#F8F7F7"
+            android:textStyle="bold" />
+
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="111dp"
+            android:layout_height="73dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/img_1" />
+
+        <TextView
+            android:id="@+id/textView"
+            style="@style/Widget.AppCompat.TextView.SpinnerItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Abdullah Al Mamun "
+            android:textColor="#F8F7F7"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView2"
+            style="@style/Widget.AppCompat.TextView.SpinnerItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="011 191 104"
+            android:textColor="#F3F0F0"
+            android:textStyle="bold" />
+
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="111dp"
+            android:layout_height="73dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/img" />
+
+
+        <TextView
+            android:id="@+id/sadman"
+            style="@style/Widget.AppCompat.TextView.SpinnerItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Sadman Sakib"
+            android:textColor="#F8F7F7"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/SadmanID"
+            style="@style/Widget.AppCompat.TextView.SpinnerItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="011 191 097"
+            android:textColor="#F3F0F0"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
